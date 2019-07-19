@@ -27,6 +27,7 @@ public class SearchFunctionalityTest {
         password.sendKeys("zadanie");
         WebElement buttonLogin =driver.findElement(By.className("mainoption"));
         buttonLogin.click();
+        
     }
 
     @AfterTest
